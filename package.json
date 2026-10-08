@@ -1,0 +1,26 @@
+{
+  "name": "node_grp",
+  "version": "1.0.0",
+  "description": "Real-time synchronized screen play for video & music using Socket.io and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "syncplay",
+    "socketio",
+    "watchparty",
+    "video-sync",
+    "music-player"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.4.0",
+    "socket.io": "^4.8.4",
+    "socket.io-client": "^4.8.4"
+  }
+}
